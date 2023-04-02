@@ -111,7 +111,31 @@
     </div>
   </footer>
   <script src="scripts/navbar_toggle.js"></script>
-  <script src="scripts/main.js"></script>
+  <script src="scripts/book.js"></script>
+  <script src="scripts/assests.js"></script>
+  <script src="scripts/page_controller.js"></script>
+  <script src="scripts/library.js"></script>
+  <script>
+    const form = document.getElementById("frm")
+    const books = document.getElementById("books")
+    const newBookBtn = document.getElementById("new-book")
+    let formShown = false
+
+    newBookBtn.addEventListener("click", () => {
+      if (formShown) {
+        Page.hideForm()
+      } else {
+        formShown = true
+        form.insertAdjacentHTML("beforeend", formInnerHTML)
+        const submit = document.getElementById("submit")
+
+        submit.addEventListener("click", (e) => {
+          e.preventDefault()
+          Page.submitBtn()
+        })
+      }
+    })
+  </script>
 </body>
 
 </html>
