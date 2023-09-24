@@ -14,6 +14,3 @@ function addBookToLibrary(title, author, pages, read, img, description) {
   myLibrary.push(newBook)
 }
 
-addBookToLibrary(1, 1, 1, 1, 1, 1)
-addBookToLibrary(2, 2, 3, 4, 4, 4)
-console.log(myLibrary)

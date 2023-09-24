@@ -12,7 +12,7 @@ You can try it online [here](https://i4pg.github.io/library).
 
 ### Wireframe
 
-<!-- ![](./src/image/wireframe/Untitled-2023-06-07-1555.png) -->
+![](./assets/wireframe/Untitled-2023-09-24-1136.png)
 
 ### ScreenShots
 
@@ -34,7 +34,7 @@ Then open the `index.html` file in your web browser to start playing the game.
 
 ### To-do
 
-- [] wireframe
+- [x] wireframe
 
 
 ## Contributing
